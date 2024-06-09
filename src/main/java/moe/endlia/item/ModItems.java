@@ -11,7 +11,7 @@ public class ModItems {
     public static final Item TOFU = registerItem("tofu", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registries.ITEM, new Identifier(Tofumod.MOD_ID, name), item);
+        return Registry.register(Registries.ITEM, new Identifier(Tofumod.MOD_ID, "tofu"), item);
     }
 
     public static void registerModItems() {

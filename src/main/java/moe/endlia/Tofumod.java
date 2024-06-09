@@ -1,5 +1,6 @@
 package moe.endlia;
 
+import moe.endlia.item.ModItemGroups;
 import moe.endlia.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,7 +14,8 @@ public class Tofumod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		LOGGER.info("Tofumod initialized");
+		LOGGER.info("Tofumod initialing");
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 	}
 }
