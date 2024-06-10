@@ -1,7 +1,9 @@
 package moe.endlia.item;
-
 import moe.endlia.Tofumod;
+
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+
+
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -22,9 +24,7 @@ public class ModItemGroups {
                     })
                     .build());
 
-
     public static void registerItemGroups(){
         Tofumod.LOGGER.info("Registering Mod Item Groups for " + Tofumod.MOD_ID);
-
     }
 }
