@@ -1,3 +1,6 @@
 {
-  "item.tofumod.tofu": "豆腐"
+  "item.tofumod.momen_tofu": "豆腐",
+  "item.tofumod.kinugoshi_tofu": "嫩豆腐",
+
+  "itemgroup.tofugroup": "豆腐"
 }

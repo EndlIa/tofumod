@@ -14,8 +14,12 @@ public class ModItemGroups {
 
     public static final ItemGroup TOFU_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Tofumod.MOD_ID, "tofugroup"), FabricItemGroup.builder()
-                    .displayName(Text.translatable("itemgroup.tofumod.tofu"))
-                    .icon(() -> new ItemStack(ModItems.TOFU)).entries((displayContext, entries) -> {})
+                    .displayName(Text.translatable("itemgroup.tofugroup"))
+                    .icon(() -> new ItemStack(ModItems.MOMEN_TOFU))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.MOMEN_TOFU);
+                        entries.add(ModItems.KINUGOSHI_TOFU);
+                    })
                     .build());
 
 
