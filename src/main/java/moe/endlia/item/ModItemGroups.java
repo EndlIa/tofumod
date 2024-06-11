@@ -1,6 +1,7 @@
 package moe.endlia.item;
 import moe.endlia.Tofumod;
 
+import moe.endlia.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 
 
@@ -21,6 +22,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.MOMEN_TOFU);
                         entries.add(ModItems.KINUGOSHI_TOFU);
+                        entries.add(ModBlocks.MOMEN_TOFU_BLOCK);
                     })
                     .build());
 

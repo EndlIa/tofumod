@@ -1,7 +1,6 @@
 package moe.endlia.block;
 
 import moe.endlia.Tofumod;
-import net.fabricmc.fabric.api.item.v1.FabricItem;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -13,7 +12,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block MOMEN_TOFU_BLOCK = registerBlock("momen_tofu_block",
-            new Block(AbstractBlock.Settings.create()));
+            new Block(AbstractBlock.Settings.create().strength(4.0f)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
