@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tofumod:block/tofu_ore_block"
+  }
+}

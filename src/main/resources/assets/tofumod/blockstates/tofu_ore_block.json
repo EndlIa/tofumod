@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tofumod:block/tofu_ore_block"
+    }
+  }
+}
