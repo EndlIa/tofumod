@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "tofumod:/block/momen_tofu_block"
+      "model": "tofumod:block/momen_tofu_block"
     }
   }
 }
