@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "tofumod:momen_tofu_block"
+              "name": "tofumod:tofu_ore_block"
             },
             {
               "type": "minecraft:item",
@@ -40,13 +40,13 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "tofumod:momen_tofu"
+              "name": "tofumod:tofu_gem"
             }
           ]
         }
       ],
-      "rolls": 4.0
+      "rolls": 1.0
     }
   ],
-  "random_sequence": "tofumod:blocks/momen_tofu_block"
+  "random_sequence": "tofumod:blocks/tofu_ore_block"
 }
