@@ -19,7 +19,7 @@ public class ModBlocks {
     public static final Block MOMEN_TOFU_BLOCK = registerBlock("momen_tofu_block",
             new Block(AbstractBlock.Settings.create().strength(0.6f)));
     public static final Block TOFU_ORE_BLOCK = registerBlock("tofu_ore_block",
-            new ExperienceDroppingBlock(UniformIntProvider.create(0, 2), AbstractBlock.Settings.copy(Blocks.COAL_ORE).strength(1.0f)));
+            new ExperienceDroppingBlock(UniformIntProvider.create(1, 3), AbstractBlock.Settings.copy(Blocks.COAL_ORE)));
 
 
 
