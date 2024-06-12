@@ -7,5 +7,7 @@
   "block.tofumod.momen_tofu_block": "Momen Tofu Block",
   "block.tofumod.tofu_ore_block": "Tofu Ore Block",
 
-  "itemgroup.tofugroup": "Tofu"
+  "itemgroup.tofugroup": "Tofu",
+
+  "item.metaltest": "Metaltest"
 }

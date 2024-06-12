@@ -4,7 +4,6 @@ import moe.endlia.block.ModBlocks;
 import moe.endlia.item.ModItemGroups;
 import moe.endlia.item.ModItems;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
