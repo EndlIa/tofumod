@@ -3,7 +3,6 @@ package moe.endlia.item;
 import moe.endlia.Tofumod;
 
 import moe.endlia.item.custom.MetalDetectorItem;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
