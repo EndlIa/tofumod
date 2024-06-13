@@ -24,6 +24,7 @@ public class ModItemGroups {
                         entries.add(ModItems.KINUGOSHI_TOFU);
                         entries.add(ModItems.TOFU_GEM);
                         entries.add(ModItems.METALTEST);
+                        entries.add(ModItems.TOFU_SCOOP);
                         entries.add(ModBlocks.MOMEN_TOFU_BLOCK);
                         entries.add(ModBlocks.TOFU_ORE_BLOCK);
                     })
