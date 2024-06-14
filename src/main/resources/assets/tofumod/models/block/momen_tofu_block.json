@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "tofumod:block/momen_tofu_block"
-  }
-}

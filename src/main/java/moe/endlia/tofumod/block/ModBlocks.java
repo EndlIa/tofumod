@@ -29,9 +29,9 @@ public class ModBlocks {
     public static final Block MOMEN_TOFU_WALL = registerBlock("momen_tofu_wall",
             new WallBlock(AbstractBlock.Settings.create().strength(0.6f)));
     public static final Block MOMEN_TOFU_DOOR = registerBlock("momen_tofu_door",
-            new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.create().strength(0.6f)));
+            new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.create().strength(0.6f).nonOpaque()));
     public static final Block MOMEN_TOFU_TRAPDOOR = registerBlock("momen_tofu_trapdoor",
-            new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.create().strength(0.6f)));
+            new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.create().strength(0.6f).nonOpaque()));
     //the gem
     public static final Block TOFU_ORE_BLOCK = registerBlock("tofu_ore_block",
             new ExperienceDroppingBlock(UniformIntProvider.create(1, 3), AbstractBlock.Settings.copy(Blocks.COAL_ORE)));
