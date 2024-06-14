@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -38,5 +39,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TOFU_GEM, Models.GENERATED);
         itemModelGenerator.register(ModItems.TOFU_SCOOP, Models.GENERATED);
         itemModelGenerator.register(ModItems.MOMEN_TOFU_PICKAXE, Models.GENERATED);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.MOMEN_TOFU_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.MOMEN_TOFU_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.MOMEN_TOFU_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.MOMEN_TOFU_BOOTS);
+
     }
 }
