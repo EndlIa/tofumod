@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"moe.endlia.Tofumod"
+			"moe.endlia.tofumod.Tofumod"
 		],
 		"client": [
-			"moe.endlia.TofumodClient"
+			"moe.endlia.tofumod.TofumodClient"
 		],
 		"fabric-datagen": [
-			"moe.endlia.TofumodDataGenerator"
+			"moe.endlia.tofumod.TofumodDataGenerator"
 		]
 	},
 	"mixins": [

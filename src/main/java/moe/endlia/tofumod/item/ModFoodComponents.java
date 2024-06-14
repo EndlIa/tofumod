@@ -1,4 +1,4 @@
-package moe.endlia.item;
+package moe.endlia.tofumod.item;
 
 import net.minecraft.component.type.FoodComponent;
 

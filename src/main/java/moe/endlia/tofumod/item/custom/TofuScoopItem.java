@@ -1,6 +1,6 @@
-package moe.endlia.item.custom;
+package moe.endlia.tofumod.item.custom;
 
-import moe.endlia.block.ModBlocks;
+import moe.endlia.tofumod.util.ModTags;
 
 import net.minecraft.block.Block;
 import net.minecraft.entity.ItemEntity;
@@ -22,7 +22,7 @@ public class TofuScoopItem extends Item {
             World world = context.getWorld();
             BlockPos pos = context.getBlockPos();
             Block block = context.getWorld().getBlockState(pos).getBlock();
-            if (block.getDefaultState().isOf(ModBlocks.MOMEN_TOFU_BLOCK)) {
+            if (block.getDefaultState().isIn(ModTags.Blocks.TOFU_SCOOPABLE)) {
                 ItemStack stack = block.asItem().getDefaultStack();
                 ItemEntity itemEntity = new ItemEntity(world, pos.getX(), pos.getY(), pos.getZ(), stack);
                 world.breakBlock(pos, false);

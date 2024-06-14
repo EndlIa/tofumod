@@ -1,9 +1,9 @@
-package moe.endlia.item;
+package moe.endlia.tofumod.item;
 
-import moe.endlia.Tofumod;
-import moe.endlia.item.custom.MetalDetectorItem;
+import moe.endlia.tofumod.Tofumod;
+import moe.endlia.tofumod.item.custom.MetalDetectorItem;
 
-import moe.endlia.item.custom.TofuScoopItem;
+import moe.endlia.tofumod.item.custom.TofuScoopItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;

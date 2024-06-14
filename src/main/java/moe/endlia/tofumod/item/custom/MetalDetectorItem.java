@@ -1,4 +1,4 @@
-package moe.endlia.item.custom;
+package moe.endlia.tofumod.item.custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
