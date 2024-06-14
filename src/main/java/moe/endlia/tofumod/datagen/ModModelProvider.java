@@ -1,6 +1,7 @@
 package moe.endlia.tofumod.datagen;
 
 import moe.endlia.tofumod.block.ModBlocks;
+import moe.endlia.tofumod.block.custom.SoyCrop;
 import moe.endlia.tofumod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -28,8 +29,11 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(ModBlocks.MOMEN_TOFU_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.MOMEN_TOFU_TRAPDOOR);
 
-
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TOFU_ORE_BLOCK);
+
+        blockStateModelGenerator.registerCrop(ModBlocks.SOYBEANS_CROP, SoyCrop.AGE, 0, 1, 2, 3, 4);
+
+
     }
 
     @Override
@@ -43,7 +47,5 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor((ArmorItem) ModItems.MOMEN_TOFU_CHESTPLATE);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.MOMEN_TOFU_LEGGINGS);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.MOMEN_TOFU_BOOTS);
-        itemModelGenerator.register(ModItems.SOYBEANS, Models.GENERATED);
-
     }
 }

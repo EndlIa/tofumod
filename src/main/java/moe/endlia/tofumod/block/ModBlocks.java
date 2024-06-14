@@ -2,6 +2,7 @@ package moe.endlia.tofumod.block;
 
 import moe.endlia.tofumod.Tofumod;
 
+import moe.endlia.tofumod.block.custom.SoyCrop;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -32,11 +33,10 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.OAK, AbstractBlock.Settings.create().strength(0.6f).nonOpaque()));
     public static final Block MOMEN_TOFU_TRAPDOOR = registerBlock("momen_tofu_trapdoor",
             new TrapdoorBlock(BlockSetType.OAK, AbstractBlock.Settings.create().strength(0.6f).nonOpaque()));
-    //the gem
+
     public static final Block TOFU_ORE_BLOCK = registerBlock("tofu_ore_block",
             new ExperienceDroppingBlock(UniformIntProvider.create(1, 3), AbstractBlock.Settings.copy(Blocks.COAL_ORE)));
-
-
+    public static final Block SOYBEANS_CROP = Registry.register(Registries.BLOCK, new Identifier(Tofumod.MOD_ID, "soybeans_crop"), new SoyCrop(AbstractBlock.Settings.copy(Blocks.WHEAT)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
