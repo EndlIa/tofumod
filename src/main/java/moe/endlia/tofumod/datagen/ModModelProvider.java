@@ -43,6 +43,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor((ArmorItem) ModItems.MOMEN_TOFU_CHESTPLATE);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.MOMEN_TOFU_LEGGINGS);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.MOMEN_TOFU_BOOTS);
+        itemModelGenerator.register(ModItems.SOYBEANS, Models.GENERATED);
 
     }
 }

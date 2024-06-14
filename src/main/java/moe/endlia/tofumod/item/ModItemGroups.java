@@ -27,8 +27,11 @@ public class ModItemGroups {
                         entries.add(ModItems.MOMEN_TOFU_HELMET);entries.add(ModItems.MOMEN_TOFU_CHESTPLATE);entries.add(ModItems.MOMEN_TOFU_LEGGINGS);entries.add(ModItems.MOMEN_TOFU_BOOTS);
                         entries.add(ModItems.METALTEST);
                         entries.add(ModItems.TOFU_SCOOP);
+                        entries.add(ModItems.SOYBEANS);
+
                         entries.add(ModBlocks.MOMEN_TOFU_BLOCK);entries.add(ModBlocks.MOMEN_TOFU_BUTTON);entries.add(ModBlocks.MOMEN_TOFU_DOOR);entries.add(ModBlocks.MOMEN_TOFU_FENCE);entries.add(ModBlocks.MOMEN_TOFU_TRAPDOOR);entries.add(ModBlocks.MOMEN_TOFU_FENCE_GATE);entries.add(ModBlocks.MOMEN_TOFU_SLAB);entries.add(ModBlocks.MOMEN_TOFU_WALL);entries.add(ModBlocks.MOMEN_TOFU_PRESSURE_PLATE);entries.add(ModBlocks.MOMEN_TOFU_STAIRS);
                         entries.add(ModBlocks.TOFU_ORE_BLOCK);
+
 
                     })
                     .build());

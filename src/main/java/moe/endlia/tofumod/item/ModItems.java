@@ -23,7 +23,7 @@ public class ModItems {
     public static final Item MOMEN_TOFU_CHESTPLATE = registerItem("momen_tofu_chestplate", new ArmorItem(ModArmorMaterials.MOMEN_TOFU, ArmorItem.Type.CHESTPLATE, new Item.Settings()));
     public static final Item MOMEN_TOFU_LEGGINGS = registerItem("momen_tofu_leggings", new ArmorItem(ModArmorMaterials.MOMEN_TOFU, ArmorItem.Type.LEGGINGS, new Item.Settings()));
     public static final Item MOMEN_TOFU_BOOTS = registerItem("momen_tofu_boots", new ArmorItem(ModArmorMaterials.MOMEN_TOFU, ArmorItem.Type.BOOTS, new Item.Settings()));
-
+    public static final Item SOYBEANS = registerItem("soybeans", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
