@@ -4,6 +4,7 @@ import moe.endlia.tofumod.block.ModBlocks;
 import moe.endlia.tofumod.item.ModItemGroups;
 import moe.endlia.tofumod.item.ModItems;
 import moe.endlia.tofumod.util.ModLootableModifiers;
+import moe.endlia.tofumod.villager.ModVillager;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,6 +20,7 @@ public class Tofumod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModVillager.registerModVillagers();
 		ModLootableModifiers.modifyLootables();
 	}
 }
