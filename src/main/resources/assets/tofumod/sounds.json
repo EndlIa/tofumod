@@ -1,0 +1,9 @@
+{
+  "tofu_bugle": {
+    "subtitle": "sounds.tofumod.tofu_bugle",
+    "sounds": [
+      "tofumod:tofu_bugle_1",
+      "tofumod:tofu_bugle_2"
+    ]
+  }
+}

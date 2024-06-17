@@ -3,6 +3,7 @@ package moe.endlia.tofumod;
 import moe.endlia.tofumod.block.ModBlocks;
 import moe.endlia.tofumod.item.ModItemGroups;
 import moe.endlia.tofumod.item.ModItems;
+import moe.endlia.tofumod.sound.ModSounds;
 import moe.endlia.tofumod.util.ModLootableModifiers;
 import moe.endlia.tofumod.villager.ModVillager;
 import net.fabricmc.api.ModInitializer;
@@ -22,5 +23,6 @@ public class Tofumod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModVillager.registerModVillagers();
 		ModLootableModifiers.modifyLootables();
+		ModSounds.registerSounds();
 	}
 }

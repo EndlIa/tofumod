@@ -42,6 +42,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.KINUGOSHI_TOFU, Models.GENERATED);
         itemModelGenerator.register(ModItems.TOFU_GEM, Models.GENERATED);
         itemModelGenerator.register(ModItems.TOFU_SCOOP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TOFU_BUGLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.MOMEN_TOFU_PICKAXE, Models.GENERATED);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.MOMEN_TOFU_HELMET);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.MOMEN_TOFU_CHESTPLATE);

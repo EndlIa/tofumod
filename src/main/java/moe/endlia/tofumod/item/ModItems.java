@@ -4,6 +4,7 @@ import moe.endlia.tofumod.Tofumod;
 import moe.endlia.tofumod.block.ModBlocks;
 import moe.endlia.tofumod.item.custom.MetalDetectorItem;
 
+import moe.endlia.tofumod.item.custom.TofuBugleItem;
 import moe.endlia.tofumod.item.custom.TofuScoopItem;
 import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.ArmorItem;
@@ -19,6 +20,7 @@ public class ModItems {
     public static final Item KINUGOSHI_TOFU = registerItem("kinugoshi_tofu", new Item(new Item.Settings().food(ModFoodComponents.TOFU)));
     public static final Item TOFU_GEM = registerItem("tofu_gem", new Item(new Item.Settings()));
     public static final Item METALTEST = registerItem("metaltest", new MetalDetectorItem(new Item.Settings().maxDamage(64)));
+    public static final Item TOFU_BUGLE = registerItem("tofu_bugle", new TofuBugleItem(new Item.Settings().maxDamage(64)));
     public static final Item TOFU_SCOOP = registerItem("tofu_scoop", new TofuScoopItem(new Item.Settings().maxDamage(64)));
     public static final Item MOMEN_TOFU_PICKAXE = registerItem("momen_tofu_pickaxe", new PickaxeItem(ModToolMaterial.MOMEN_TOFU, new Item.Settings()));
     public static final Item MOMEN_TOFU_HELMET = registerItem("momen_tofu_helmet", new ArmorItem(ModArmorMaterials.MOMEN_TOFU, ArmorItem.Type.HELMET, new Item.Settings()));

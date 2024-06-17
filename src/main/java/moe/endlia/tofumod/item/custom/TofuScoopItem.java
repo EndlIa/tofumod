@@ -1,7 +1,6 @@
 package moe.endlia.tofumod.item.custom;
 
 import moe.endlia.tofumod.util.ModTags;
-
 import net.minecraft.block.Block;
 import net.minecraft.entity.ItemEntity;
 import net.minecraft.item.Item;
